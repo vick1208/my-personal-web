@@ -40,6 +40,7 @@ h2 {
     font-weight: normal;
 }
 
+
 .about-container {
     margin: 100px 0;
 }
@@ -54,10 +55,8 @@ h2 {
 }
 
 .intro {
-    width: 30%;
+    width: 50%;
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-
 }
 
 a,
@@ -89,4 +88,9 @@ a:hover {
     justify-content: center;
     gap: 3rem;
     padding: 10%;
+}
+
+.contact-paragraph{
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
