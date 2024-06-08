@@ -1,5 +1,5 @@
 body {
-    
+    color: #0F172A;
     margin: 0;
     text-align: center;
     font-family: "Inter", Arial, Helvetica, sans-serif;
@@ -11,7 +11,7 @@ body {
 }
 
 .hero-container {
-    background-color: #BEF264;
+    background-color: #FFF67E;
     position: relative;
     padding-top: 100px;
 }
@@ -20,7 +20,6 @@ body {
 
 
 h1 {
-    color: #0F172A;
     font-size: 5rem;
     font-family: "Merriweather", Georgia, 'Times New Roman', Times, serif;
 }
@@ -31,11 +30,11 @@ h1 {
     object-fit: cover;
     object-position: 25% 25%;
     border-radius: 50%;
-    border: 1px solid #374577;
+
 }
 
 h2 {
-    color: #374577;
+    color: #416D19;
     font-size: 2.4rem;
     font-weight: normal;
 }
@@ -79,7 +78,7 @@ a:hover {
 .project-card{
     width: 22.5%;
     padding: 1.5rem;
-    background-color: #D9F99D;
+    background-color: #BFEA7C;
     border-radius: 20px;
 }
 
