@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Survey Form </title>
+    <link rel="stylesheet" href="./css/survey-styles.css">
+</head>
+
+<body>
+    <h1 id="title"> Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form" action="">
+        <div class="form-group">
+            <label id="name-label" for="name">Name </label>
+            <input type="text" id="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+            <label id="email-label" for="email">Email </label>
+            <input type="email" id="email" placeholder="Your email" required>
+        </div>
+        <div class="form-group">
+            <label id="number-label" for="number">Age (Optional) </label>
+            <input type="number" id="number" min="1" max="100" placeholder="Age">
+        </div>
+        <div class="form-group">
+            <p>What is your role right now?</p>
+            <select id="dropdown">
+                <option disabled selected>Role</option>
+                <option value="1">Student</option>
+                <option value="2">Teacher</option>
+                <option value="3">Parent</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>Would you like to recommend this site?</p>
+            <div>
+                <input type="radio" name="user" value="absolutely" checked> Absolutely
+            </div>
+            <div>
+                <input type="radio" name="user" value="maybe"> Maybe
+            </div>
+            <div>
+                <input type="radio" name="user" value="not sure"> I'm not sure
+            </div>
+        </div>
+        <div class="form-group">
+            <p>Would you like to improve from this site?</p>
+            <label><input name="prefer" value="front-end-projects" type="checkbox" />Front-end Projects</label>
+            <label>
+                <input name="prefer" value="back-end-projects" type="checkbox" />Back-end Projects</label>
+            <label><input name="prefer" value="data-visualization" type="checkbox" />Data Visualization</label>
+            <label>
+                <input name="prefer" value="challenges" type="checkbox" />Challenges</label>
+        </div>
+        <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit" id="submit">
+                Submit
+            </button>
+        </div>
+    </form>
+</body>
+
+</html>
