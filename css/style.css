@@ -11,7 +11,7 @@ body {
 }
 
 .hero-container {
-    background-color: #FFF67E;
+    background-color: #FFF2D7;
     position: relative;
     padding-top: 100px;
 }
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-    color: #416D19;
+    color: #666056;
     font-size: 2.4rem;
     font-weight: normal;
 }
@@ -65,7 +65,7 @@ a:visited {
 }
 
 a:hover {
-    color: #37455B;
+    color: #D8AE7E;
 }
 
 .project-row{
@@ -78,7 +78,7 @@ a:hover {
 .project-card{
     width: 22.5%;
     padding: 1.5rem;
-    background-color: #BFEA7C;
+    background-color: #FFF2D7;
     border-radius: 20px;
 }
 
