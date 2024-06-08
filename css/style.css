@@ -1,12 +1,17 @@
 body {
-    color: #37454B;
+    
     margin: 0;
-    font-family: "Merriweather", Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+
+}
+
+.text-italic{
+    font-style: italic;
 }
 
 .hero-container {
-    background-color: #BBF7D0;
+    background-color: #BEF264;
     position: relative;
     padding-top: 100px;
 }
@@ -15,7 +20,9 @@ body {
 
 
 h1 {
+    color: #0F172A;
     font-size: 5rem;
+    font-family: "Merriweather", Georgia, 'Times New Roman', Times, serif;
 }
 
 .profile-pic{
@@ -30,7 +37,6 @@ h1 {
 h2 {
     color: #374577;
     font-size: 2.4rem;
-    font-family: "Inter", Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
 
@@ -62,4 +68,25 @@ a:visited {
 
 a:hover {
     color: #37455B;
+}
+
+.project-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2em auto;
+}
+
+.project-card{
+    width: 22.5%;
+    padding: 1.5rem;
+    background-color: #D9F99D;
+    border-radius: 20px;
+}
+
+.contact-links{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 10%;
 }

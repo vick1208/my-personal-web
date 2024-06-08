@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./css/technical-styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Ruby Documentation</header>
+        <ul>
+            <li>
+                <a class="nav-link" href="#Introduction">Introduction</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Requirement_to_Learn">Requirement to Learn</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Ruby_and_Python">Ruby and Python</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Hello_World">Hello World</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Comments">Comments</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Maths">Maths</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Variables_and_Names">Variables and Names</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#if-else_Statement">if-else Statement</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Methods">Methods</a>
+            </li>
+            <li>
+                <a class="nav-link" href="#Reference">Reference</a>
+            </li>
+
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed
+                    and
+                    developed in the mid-1990s by Yukihiro “Matz” Matsumoto in Japan.</p>
+
+            </article>
+        </section>
+
+        <section class="main-section" id="Requirement_to_Learn">
+            <header>Requirement to Learn</header>
+            <article>
+                <p>This guide assumes you have the following requirement:</p>
+                <ul>
+                    <li>Installed Ruby in your OS</li>
+                    <li>Good working knowledge on Backend Engineering</li>
+                    <li>Some programming experience on OOP language, such as Java or Python.</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="Ruby_and_Python">
+            <header>Ruby and Python</header>
+            <article>
+                <p>Ruby have several similiar and difference with Python.They both are high-level languages,server-side
+                    scripting language, used for web applications, and have readable syntax.</p>
+                <p>Ruby is a general purpose and fully object oriented programming language. Meanwhile, Python is a high
+                    level
+                    programming language and not fully object oriented programming language.</p>
+            </article>
+        </section>
+        <section class="main-section" id="Hello_World">
+            <header>Hello World</header>
+            <article>
+                <p>We can use various online IDE. which can be used to run Ruby programs without installing.</p>
+                <code>
+         puts "Hello world!"
+          </code>
+                <p> Above code will run on online IDE. Here, <b>puts</b> keyword is used to print any thing on the
+                    screen.</p>
+                <p>Parentheses usage in Ruby is optional, so it can be written as such</p>
+                <code>
+          puts "Hello world!"
+          puts ("Hello world!")
+        </code>
+            </article>
+        </section>
+
+        <section class="main-section" id="Comments">
+            <header>Comments</header>
+            <article>
+                <p>
+                <ul>
+                    <li># is called the pound character in ruby and it is used to add comments to your code</li>
+                    <li>=begin, =end are used for multi-line comments</li>
+                </ul>
+                </p>
+                <p>Example:</p>
+                <code>
+          # this is a comment and wont be executed
+
+= begin
+this is 
+a multi line
+comment in ruby
+= end
+        </code>
+            </article>
+        </section>
+        <section class="main-section" id="Maths">
+            <header>Maths</header>
+            <article>
+                <p>
+                    Simple mathematical functions can be carried out within the puts statements.Just as we use '%d' or
+                    '%f' and
+                    '&' in C,we will use '#{ } in Ruby to get our work done.
+                </p>
+                <code>puts "Alok has #{25+30/6} Rupees in his pocket"</code>
+                <p><strong>Output : Alok has 30 Rupees in his pocket</strong><br>
+                    The use of #{ } is how you insert Ruby computations into text strings.
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Variables_and_Names">
+            <header>Variables and Names</header>
+            <article>
+                <p>Variables in ruby are the same as that of any other dynamic programming language. You just don’t need
+                    to
+                    mention its type and ruby will know its type automatically.<br>
+                    For Example:</p>
+                <code>
+          cars = 100
+drivers = 30
+puts "There are #{cars} cars and #{drivers} drivers."
+        </code>
+            </article>
+        </section>
+        <section class="main-section" id="if-else_Statement">
+            <header>if-else Statement</header>
+            <article>
+                <p>
+                    In this ‘if’ statement used to execute block of code when the condition is true and ‘else’ statement
+                    is used
+                    to execute a block of code when the condition is false.
+                </p>
+                <code>
+          if(condition)  
+
+    # code if the condition is true  
+
+else  
+
+   # code if the condition is false  
+end  </code>
+            </article>
+        </section>
+        <section class="main-section" id="Methods">
+            <header>Methods</header>
+            <article>
+                <p>
+                    In Ruby, the method defines with the help of <b>def</b> keyword followed by <em>method_name</em>and
+                    end with
+                    <b>end</b> keyword.A method must be defined before calling and the name of the method should be in
+                    lowercase.
+                    Methods are simply called by its name. You can simply write the name of method whenever you call a
+                    method.
+                </p>
+                <code>
+  def method_name
+# Statement 1
+# Statement 2
+.
+.
+end
+</code>
+            </article>
+        </section>
+        <section class="main-section" id="Reference">
+            <header>Reference</header>
+            <article>
+                <ul>
+                    <li>All the documentation in this page is taken from <a
+                            href="https://geeksforgeeks.org/ruby-programming-language/" target="_blank">Geeks for
+                            geeks</a></li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
